@@ -383,7 +383,7 @@ async def quotly(event):
         await conv.cancel_all()
 
 CmdHelp('scrapers_bot').add_command(
-    'sangmata', '<yanıt>', 'Belirtilen kullanıcının isim geçmişini görüntüleyin.'
+    'sangmata', '<yanıt>', 'Been kullanıcının isim geçmişini görüntüleyin.'
 ).add_command(
     'scan', '<yanıt>', 'Belirtilen dosyada virüs var mı yok mu bakın.'
 ).add_command(
