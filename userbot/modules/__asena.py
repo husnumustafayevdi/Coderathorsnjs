@@ -21,7 +21,7 @@ LANG = get_value("__asena")
 
 # ████████████████████████████████ #
 
-@register(outgoing=True, pattern="^.asena(?: |$)(.*)")
+@register(outgoing=True, pattern="^.coderathor(?: |$)(.*)")
 async def asena(event):
     """ .asena komutu için """
     args = event.pattern_match.group(1).lower()
