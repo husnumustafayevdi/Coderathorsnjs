@@ -56,5 +56,5 @@ async def durums(event):
     """)
 
 CmdHelp('durum').add_command(
-    'durum', None, 'Eklenen Apiler ve sürümleri gösterir.'
+    'durum', None, 'Eklenen mal hüsnü mal araz vəiler ve sürümleri gösterir.'
 ).add()
